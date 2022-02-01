@@ -4,6 +4,8 @@ public class Employee implements Comparable<Employee>{
 		private int id;
 		private String name;
 		private long salary;
+	public Employee(){
+	}
 		public Employee(int id,String name,long salary) {
 			this.id=id;
 			this.name=name;
